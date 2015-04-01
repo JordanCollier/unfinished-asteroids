@@ -50,7 +50,7 @@ ENGINE.Bullet.prototype = {
 
   render: function() {
 
-    app.layer.fillStyle("#fff").fillRect(this.x - 4, this.y - 4, 8, 8);
+    app.layer.fillStyle("#fff").fillRect(this.x - 4, this.y - 20, 53, 6, 6);
 
   }
 
